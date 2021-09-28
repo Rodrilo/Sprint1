@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Sprint 1 - 53404 - Grupo 8</title>
+</head>
+<body>
+    <Header>
+        <div id="logo">
+            <img src="/IMG/logo.jpg" alt="Banner Mi Peludito">
+        </div>
+    </Header>
+
+    <div class="formulario">
+        <form id= "form-registro" method="POST" action="submit">
+            <h2> Registro</h2>
+            <label>Tipo de documento</label>
+            <select name="TipoDocumento" id="TipoDocumento">
+                <option selected value=""> </option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="CC">Cédula de ciudadanía</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="TdeR">Tarjeta de residencia</option>
+            </select>
+
+            <label>Número de documento</label>
+            <input type="number" name="NumDoc" id="NumDoc" placeholder="Número de documento">
+            
+            <label>Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+
+            <label>Contraseña</label>
+            <input type="password" name="Clave" id="Clave" placeholder="Escriba su clave">
+            
+            <br><br>
+            <button type="button" name="btn-registrar" id="btn-registrar">Registrar</button>
+        </form><br>
+    </div>
+</body>
+<footer neme="footer" id="footer">
+    <img src="/IMG/footer-bg.jpg" alt="imagen de pie de página">
+    <P>MisiónTIC - Desarrollo de software - 53404 - Sub-Grupo 8 - Todos los derechos reservados</P>
+</footer>
+</html>

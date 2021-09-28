@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>53404 - Grupo 8</title>
+
+    <style>
+        footer {
+            position: relative;
+            bottom: 0;
+            margin-top: 50px;
+            width: 100%;
+            height: 150px;
+            background-image:url(footer-bg.jpg);
+        }
+        .container {
+            min-height: calc(100vh - 100px - 300px);
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <Header>
+       
+    </Header>
+        
+    <div id="formulario">
+        <form id= "form-registro" method="POST" action="submit">
+            <h2> Registro</h2>
+            <p>Tipo de documento</p>
+            <select name="TipoDocumento">
+                <option selected value=""> </option>
+                <option value="TI">Tarjeta de Identidad</option>
+                <option value="CC">Cédula de ciudadanía</option>
+                <option value="Pasaporte">Pasaporte</option>
+                <option value="TdeR">Tarjeta de residencia</option>
+            </select>
+
+            <p>Número de documento</p>
+            <input type="text" name="NumDoc" placeholder="Número de documento">
+            
+            <p>Correo</p>
+            <input type="email" name="correo" placeholder="Ingrese su correo">
+
+            <p>Contraseña</p>
+            <input type="password" name="Contraseña" placeholder="Escriba su clave">
+            <br><br>
+
+            <button name="button" value="btn-registrar">Registrar</button>
+            
+
+        </form><br>
+        
+    </div>
+    <footer></footer>
+        
+</body>
+</html>
